@@ -1,0 +1,244 @@
+/* Trayan Ivanov
+/* ===================================================== */
+/* === SITE DEFINITION ================================= */
+/* ===================================================== */
+html, body {
+	//height: 100%;
+	margin: 0px;
+}
+body {
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color: #d6d6d6;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 14px;
+	color: #444;
+}
+body, form, span, div, table, td, th, tr, em, cite, select, input, textarea, section, article, p {
+	margin: 0px;
+	padding: 0px;	
+	font-weight: normal;
+	line-height: 20px;
+}
+div.cc {
+	clear: both;
+}
+#chocolate {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+#starfish {
+	width: 980px;
+	margin: 0 auto;
+	background-color: #fefefe;	
+}
+h1 {
+	font-size: 20px;
+}
+h2 {
+	font-size: 18px;
+}
+::-moz-selection {
+	background: #444;
+	color: #fefefe;
+}
+ 
+::selection {
+	background: #444;
+	color: #fefefe;
+}
+.red {
+	color: #d2691e;
+	font-weight: bold;
+}
+.green {
+	color: #444444;
+	font-weight: bold;
+	font-style: italic;
+}
+/* ===================================================== */
+/* === LINKS =========================================== */
+/* ===================================================== */
+a, a:link, a:active, a:visited {
+	color: #d2691e;
+	text-decoration: none;
+}
+a:hover{
+	color: #d2691e;
+	text-decoration: underline;
+}
+a.hed, a.hed:link, a.hed:active, a.hed:visited {
+	color: #444;
+	text-decoration: none;
+}
+a.hed:hover{
+	color: #444;
+}
+/* ====================================================== */
+/* === STYLES =========================================== */
+/* ====================================================== */
+#julia {
+	font-size: 22px; 
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px 10px;
+	position: relative;
+}
+span.pw {
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	font-size: 16px;
+}
+header { 
+	padding-top: 5px;
+}
+nav {
+	border-bottom: 2px solid #d6d6d6;
+}
+nav ul {
+	text-align: left;
+	padding: 0px 0px 0px 10px;
+}
+nav ul li {
+	display: inline-block;
+	text-align: center;
+	font-size: 16px;
+	width: 120px;
+	border: 1px solid #fefefe;
+}
+nav ul li:hover {
+	border: 1px solid #d6d6d6;	
+}
+nav ul li.active {
+	border: 1px solid #d6d6d6;	
+}
+nav ul li a {
+	display: block;
+	padding: 10px 0px;
+	color: #444 !important;
+}
+/* ====================================================== */
+/* === LEFT ============================================= */
+/* ====================================================== */
+#left {
+	float: left;
+	padding: 20px 60px 20px 20px;
+	width: 600px;
+	border-right: 1px solid #d6d6d6;
+}
+#left p.r {
+	text-align: right;
+	font-style: italic;
+	padding-top: 10px;	 
+}
+#left p.brd {
+	border-top: 1px solid #d6d6d6;
+	width: 300px;
+	margin: 15px 0px;
+}
+#left ul {
+	padding-left: 15px;
+}
+img.download {
+	float: left;
+}
+span.download {
+	padding-top: 3px;
+}
+/* ====================================================== */
+/* === RIGHT ============================================ */
+/* ====================================================== */
+#right {
+	float: left;
+	padding: 20px;
+	width: 250px;
+}
+#jdphoto {
+	border: 1px solid #d6d6d6;
+	padding: 5px;
+	display: block;
+	width: 200px;
+	height: 270px;
+}
+/* ====================================================== */
+/* === GALLERY ========================================== */
+/* ====================================================== */
+.galleryImgContainer {
+	float: left;
+	border: 1px solid #d6d6d6;
+	width: 120px;
+	height: 110px;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	padding-top: 10px;
+	text-align: center;
+}
+/* ====================================================== */
+/* === CONTACTS ========================================= */
+/* ====================================================== */
+table.contactForm {
+	width: 100%;
+}
+table.contactForm td {
+	padding: 8px 0px;
+}
+table.contactForm td.title {
+	font-weight: bold;
+	width: 150px;
+	vertical-align: top;
+}
+table.contactForm input.standart {
+	width: 290px;
+	padding: 3px 5px;
+	border: 1px solid #444444;
+	border-radius: 3px;
+}
+table.contactForm input.short {
+	width: 160px;
+	padding: 3px 5px;
+	border: 1px solid #444444;
+}
+table.contactForm textarea {
+	width: 290px;
+	padding: 2px 5px;
+	border: 1px solid #444444;
+	border-radius: 3px;
+}
+table.contactForm img.code {
+	float: left;
+	margin-right: 10px;
+}
+table.contactForm input.submitBtn {
+	background-color: #444444;
+	border: none;
+	width: 302px;
+	padding: 7px 5px;
+	color: #fefefe;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	border-radius: 3px;
+}
+table.contactForm input.submitBtn:hover {
+	background-color: #d2691e;
+}
+/* ====================================================== */
+/* === FOOTER =========================================== */
+/* ====================================================== */
+footer {
+	margin-top: 100px;
+	padding: 20px;
+	background-color: #444;
+	color: #d6d6d6;
+	text-align: center;
+}
+footer a {
+	color: #d6d6d6 !important;
+	text-decoration: underline !important;
+}
+
+
+
